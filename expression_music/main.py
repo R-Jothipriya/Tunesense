@@ -57,7 +57,6 @@ mydb = mysql.connector.connect(
     database="emotion_music"
 )
 
-
 video_camera = VideoCamera()  
 
 @app.route('/')
